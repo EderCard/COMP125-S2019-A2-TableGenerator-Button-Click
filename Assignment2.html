@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<!--Created by: Ederson Cardoso - Created on: May 23, 2019-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table Generator</title>
+    <meta content="JavaScript, js, COMP125" name="keywords">
+    <meta content="Table Generator, JavaScript, js" name="description">
+    <link href="Assignment2Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="allPage">
+    <h1>Table Generator</h1>
+    <form method="post" id="form" action="createTableObjectOriented">
+           <div class="form-field">
+		    <label for="row">Number os rows:</label>
+		    <input type="number" min="1" name="row" id="row" value="1" required="required">
+		    </div>
+		    <div class="form-field">
+		    <label for="col" >Number of columns:</label>
+		    <input type="number" min="1" name="col" id="col" value="1" required="required">
+		    </div>
+    <br />
+    <input type="button" class="button" id="btnGenerateTable" value="Generate">
+    <br />    
+    <br />
+    </form>
+        <article> 
+        <div id="tableID">
+        </div>
+    </article>
+    <br />
+        <footer>
+	        <a href="../../index.html">Back to Index</a>
+	        <p id="copyright">
+	            &copy;&nbsp;&nbsp;Copyright Ederson Cardoso - Comp125 - Summer 2019 - Assignment #2
+	        </p>
+        </footer>
+</div>
+    <script src="Assignment2.js"></script>
+</body>
+</html>
